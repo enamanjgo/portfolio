@@ -1,0 +1,58 @@
+.landingpage {
+  background: #afc1ef;
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+
+    img {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      width: 800px;
+      height: 600px;
+      margin-top: -250px; /* Half the height */
+      margin-left: -400px; /* Half the width */
+    }
+  }
+}
+
+#layer1 {
+  z-index: 10;
+}
+#layer2 {
+  z-index: 20;
+}
+
+#layer3 {
+  z-index: 30;
+}
+
+#layer4 {
+  z-index: 40;
+}
+
+.welcome {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  top: 52%;
+
+  #arrowdown {
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+    height: 2%;
+    width: 2%;
+  }
+}
