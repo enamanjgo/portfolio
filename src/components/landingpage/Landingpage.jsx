@@ -17,18 +17,13 @@ export default function Landingpage() {
         <h2>Hey there. I'm Ena.</h2>
         <h4>
           {' '}
-          <br /> I'm an engineering student with a love for designing and
-          managing products
+          <br /> <br /> I'm an engineering student with a passion for designing
+          and managing products
           <br />
-          that improve the lives of others.
+          that make an impact.
         </h4>
-        <h4>
-          <br />
-          Actively seeking Winter 2023 internship opportunities!
-        </h4>
+        <h4></h4>
         <h3>
-          <br />
-          <br />
           <br />
           See my work
           <br />
